@@ -1,0 +1,90 @@
+core 
+bean
+context 
+el 
+
+1) spring web -> {4} 
+2) boot devtools 
+
+jsp -> 
+
+	folders 
+	jar/lib 
+	
+step1:	
+	1) create webapp folder inside src/main
+	2) create WEB-INF inside webapp 
+	3) create views inside WEB-INF 
+	
+step2:	
+	configuration -> ioc container ->jsp -> folders 
+	
+	application.properties 
+	where -> src/main/resources/
+	
+	spring.mvc.view.prefix=/WEB-INF/views/
+	spring.mvc.view.suffix=.jsp 
+	
+	
+step3: 
+	add jsp lib in project { pom.xml } 
+	tomcat embeded jasper maven 
+	
+		<dependency>
+			<groupId>org.apache.tomcat.embed</groupId>
+			<artifactId>tomcat-embed-jasper</artifactId>
+		</dependency>
+	
+------------------------------------------------------------------------------------------------	
+
+com -> controller 
+
+
+LoginServlet
+SignupServlet
+ForgetPasswordServlet 
+
+
+
+how to create spring controller? 
+	-create a class inside controller folder 
+	-class level annotation - @Controller 
+
+
+
+----------------------------------------------------------------------------------------------
+
+create jsp Signup.jsp -> run 
+
+how to change server port -> 
+	application.properties 
+			server.port=9999
+
+----------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
