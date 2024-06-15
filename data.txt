@@ -1,0 +1,5 @@
+
+create spring boot project 
+https://youtu.be/Bq9F_ryG9Y4?si=wdipC3TV2HRW0Sjy
+
+controller-getmapping-jsp-
