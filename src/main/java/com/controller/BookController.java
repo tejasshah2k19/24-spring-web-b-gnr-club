@@ -10,19 +10,23 @@ import com.bean.BookBean;
 @Controller
 public class BookController {
 
+ 
+	
 	// jsp open -> GET
 	@GetMapping("/newbook")
 	public String newBook() {
 
 		return "NewBook";// jsp name
 	}
-	
+
 	@PostMapping("/savebook")
-	public String saveBook(BookBean bookBean,Model model) {
-		
+	public String saveBook(BookBean bookBean, Model model) {
+
+		// validation
+		// db insert  
 		System.out.println(bookBean.getTitle());
-		//send data to jsp 
-		model.addAttribute("bookBean",bookBean);
+		// send data to jsp
+		model.addAttribute("bookBean", bookBean);
 
 		return "ViewBook";
 	}

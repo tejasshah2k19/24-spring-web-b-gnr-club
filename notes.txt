@@ -102,13 +102,43 @@ url -> read -> validation -> db insert =>
 -----------------------------------------------------------------------------------------
 			
 
+Model -> spring.ui -> 
 
 
+-------------------------------------
+spring + database 
+
+step 1 : add dep / pom.xml 
+		project -> right click -> spring -> add:edit starters 
+				1)mysql 
+				2)spring data jdbc 
+				
+step 2: application.properties 
+			spring.datasource.url 
+			spring.datasource.username
+			spring.datasource.password 
+			
+-------------------------------------
 
 
+PreparedStatement -> query -> executeUpdate() 
 
+		
+		
+JdbcTemplate -> 
+@Autowired 
+			
+			
+			
+		//update()-> insert update delete :: sql 
 
-
+ create table products ( 
+	 productId int primary key auto_increment,
+	 productName varchar(40),
+	 category varchar(40),
+	 price int
+ );
+ 
 
 
 
