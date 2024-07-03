@@ -144,10 +144,25 @@ JdbcTemplate ->
 
 
 
+-------------------------------------
+spring -> db connection 
 
+step1: 
+	jar -> lib -> pom.xml 
+		1) mysql/oracle/pg/
+		2) spring data jdbc 
+		
 
+step2: 
+	application.properties 
+	url 
+	userName
+	password 
+	
+-------------------------------------------
 
-
+query->run->
+JdbcTemplate -->spring 
 
 
 
