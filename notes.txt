@@ -165,6 +165,38 @@ query->run->
 JdbcTemplate -->spring 
 
 
+-----------------------------------------------
+
+file uploading -> image . audio . video . pdf excel 
+
+
+
+step1 : lib / jar / dep -> pom.xml 
+	1)fileupload
+	2)io
+	google 
+		 
+
+step2: upload file -> form -> 
+			method:post
+			encType:multipart/form-data
+			input type:file 
+			
+step3: read server -> paste 
+	database?    path 
+	server folder ?
+	cloud ? static->
+	
+	
+
+
+
+
+
+
+
+
+
 
 
 

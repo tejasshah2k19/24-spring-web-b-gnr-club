@@ -1,10 +1,13 @@
 package com.bean;
 
+import org.springframework.web.multipart.MultipartFile;
+
 public class ProductBean {
 
 	private String productName;
 	private Integer price;
 	private String category;
+	private MultipartFile productImage;
 
 	public String getProductName() {
 		return productName;
@@ -28,6 +31,14 @@ public class ProductBean {
 
 	public void setCategory(String category) {
 		this.category = category;
+	}
+
+	public MultipartFile getProductImage() {
+		return productImage;
+	}
+
+	public void setProductImage(MultipartFile productImage) {
+		this.productImage = productImage;
 	}
 
 }
