@@ -8,6 +8,7 @@ public class ProductBean {
 	private Integer price;
 	private String category;
 	private MultipartFile productImage;
+	private String productImagePath;
 
 	public String getProductName() {
 		return productName;
@@ -39,6 +40,14 @@ public class ProductBean {
 
 	public void setProductImage(MultipartFile productImage) {
 		this.productImage = productImage;
+	}
+
+	public String getProductImagePath() {
+		return productImagePath;
+	}
+
+	public void setProductImagePath(String productImagePath) {
+		this.productImagePath = productImagePath;
 	}
 
 }

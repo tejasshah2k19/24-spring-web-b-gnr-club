@@ -187,7 +187,17 @@ step3: read server -> paste
 	server folder ?
 	cloud ? static->
 	
+------------------------------------------------------------------------
+
+store image path into database 
+
+		1)alter table products add productImagePath varchar(300);
+		2) add 1 field in bean class-> ProductBean -> String productImagePath
+		
 	
+
+
+
 
 
 
